@@ -16,7 +16,7 @@ public class InjectedControllerTest {
     }
 
     @Test
-    public void testGreeting() throws Exception {
+    public void testGreetingImpl() throws Exception {
         assertEquals(GreetingServiceImpl.HELLO_CALVIN, injectedController.sayHello());
     }
 }
